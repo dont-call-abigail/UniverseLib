@@ -2,13 +2,11 @@
 
 UniverseLib is a library for making plugins which target IL2CPP and Mono Unity games, with a focus on UI-driven plugins.
 
-## NuGet
+## This fork
 
-[![](https://img.shields.io/nuget/v/UniverseLib.Mono?label=UniverseLib.Mono)](https://www.nuget.org/packages/UniverseLib.Mono)  
+This version of the library has been modified for use in [DON'T CALL ABIGAIL](https://github.com/dont-call-abigail).
 
-[![](https://img.shields.io/nuget/v/UniverseLib.IL2CPP.Unhollower?label=UniverseLib.IL2CPP.Unhollower)](https://www.nuget.org/packages/UniverseLib.IL2CPP.Unhollower)
-
-[![](https://img.shields.io/nuget/v/UniverseLib.IL2CPP.Interop?label=UniverseLib.IL2CPP.Interop)](https://www.nuget.org/packages/UniverseLib.IL2CPP.Interop)
+In particular, it has been configured to better conform to our build system, and BepInEx is the only supported target.
 
 ## Documentation
 
@@ -16,10 +14,7 @@ Documentation and usage guides can currently be found on the [Wiki](https://gith
 
 ## UniverseLib.Analyzers
 
-[![](https://img.shields.io/nuget/v/UniverseLib.Analyzers)](https://www.nuget.org/packages/UniverseLib.Analyzers) 
-[![](https://img.shields.io/badge/-source-blue?logo=github)](https://github.com/sinai-dev/UniverseLib.Analyzers)
-
-The Analyzers package contains IDE analyzers for using UniverseLib and avoiding common mistakes when making universal Unity mods and tools.
+The Analyzers package is not supported by this fork.
 
 ## Acknowledgements
 
